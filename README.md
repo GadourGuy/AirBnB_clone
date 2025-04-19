@@ -1,6 +1,19 @@
-Airbnb Clone Project
+# 🏠 Airbnb Clone
+
+A simplified **Airbnb Clone** web application built using **Python**, **HTML**, **CSS**, and **JavaScript**. This project simulates key Airbnb features like user registration, property listings, and booking — all wrapped in a clean and responsive interface.
+
+## 🌐 Technologies Used
+
+- **Frontend:** HTML
+- **Backend:** Python
+- **Data Storage:** File-based (JSON)
 
 
-Summary
+## 🚀 Features
 
-It is a clone for Airbnb project to facilitate booking hotels and rooms. This project is first step towards complete the whole system. This part implments data structures needed in next phases and a command console to manuplate data structures of systems.
+- 🔐 User registration and login system
+- 🏘️ Property listing creation and management
+- 📅 Booking system with date selection
+- 🖼️ Display listings with images, prices, and descriptions
+- 🧭 Intuitive and responsive user interface
+  
