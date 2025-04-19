@@ -22,16 +22,19 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
+      - name: Checkout code
         uses: actions/checkout@v4
 
       - name: Setup Pages
         uses: actions/configure-pages@v5
 
+      - name: Prepare index.html
+        run: cp web_static/8-index.html web_static/index.html
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: './web_static/8-index.html'  # Make sure this matches your actual folder
+          path: './web_static'
 
       - name: Deploy to GitHub Pages
         id: deployment
